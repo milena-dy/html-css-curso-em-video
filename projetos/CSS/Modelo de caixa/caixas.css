@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(186, 236, 186);
+    width: 300px;
+    height: 300px;
+
+    border: 10px solid darkcyan;
+
+    padding: 10px 20px 40px 80px;
+
+    margin: 20px 20px 40px 20px;
+    margin: auto;
+
+    outline: 5px dashed salmon; 
+}
+
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}

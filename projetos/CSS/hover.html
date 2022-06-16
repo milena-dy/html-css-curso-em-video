@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id & Class</title>
+    <link rel="shortcut icon" href="../Yoji-Yojis-Plants-N111.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div> p{
+            display: none;
+        }
+
+        div:hover{
+            color: rgb(4, 0, 255);
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: rgb(174, 0, 255);
+            width: 300px;
+        }
+        
+    </style>
+</head>
+<body>
+   <h1>Exemplo de Hover</h1>
+
+   <p>Passe o mouse sobre o texto abaixo</p>
+   <div>Passe o mouse aqui
+       <p>TEXTO ESCONDIDO</p>
+   </div>
+   <P>Fim do exemplo</P>
+</body>
+</html>

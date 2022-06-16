@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="shortcut icon" href="../Yoji-Yojis-Plants-N111.ico" type="image/x-icon">
+  <style>
+      body{
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      li{
+        text-decoration: none;
+      }
+
+      a{
+        font-weight: bold;
+        text-decoration: none;
+        color: red; 
+      }
+
+      a:visited{
+          color: darkred;
+      }
+
+      a:hover{
+          text-decoration: underline;
+      }
+
+      .especial:hover{
+          color: white;
+          background-color: black;
+          text-decoration: none;
+      }
+
+      .especial::after{
+          content: "<<";
+      }
+
+      .especial::before{
+          content: ">>";
+          font-weight: lighter;
+      }
+  </style>
+</head>
+<body>
+ <h1>Personalizando um Link</h1>
+ 
+ <ul>
+     <li>Para aprender HTML e CSS, acesso o <a href="https://github.com/gustavoguanabara" target="_blank">GitHub do Guanabara</a></li>
+     <li>Se quiser conhecer mais sobre os padrões, viso o site do <a href="https://www.w3c.br/" target="_blank">Escritório do  W3C no Brasil</a></li>
+     <li>Para acompanhas os cursos acesseo <a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Canal do CursoemVideo</a></li>
+</body>
+</html>

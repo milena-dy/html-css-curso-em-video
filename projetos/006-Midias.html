@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="Yoji-Yojis-Plants-N111.ico" type="image/x-icon">
+<style>
+    body{
+            background-color: rgb(180, 205, 238);
+        }
+</style>
+</head>
+<body>
+    <h1>Midia</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <h2>Imagem</h2>
+    <picture id="irina">
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1150px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto tamanho G">
+    </picture>
+
+    <h2>Audio</h2>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+
+    <audio controls preload="metadata" autoplay loop>
+        <source src="audio/AsYouFadeAway.mp3" type="audio/mpeg">
+        <source src="audio/AsYouFadeAway.ogg" type="audio/ogg">
+        <source src="audio/AsYouFadeAway.wav" type="audio/wav">
+        <p>Infelizmente seu navagador não consegue reproduzir audio. Baixe o arquivo clicando <a href="audio/AsYouFadeAway.mp3">aqui</a></p>
+    </audio>
+
+<h2>Adicionando Vídeos</h2>
+
+<h3>Videos hospedados localmente</h3>
+<p>Esse vídeo está hospedado localmente</p>
+<video controls width="500px" poster="Full.jpg">
+    <source src="video/Folhas=de-Outono.mp4" type="">
+    <source src="video/Folhas=De-Outono.webm" type="">
+    <source src="video/Folhas=De-Outono.mkv" type="">
+</video>
+
+
+<ul>
+    <li>Formatos</li>
+        <ul>
+            <li>MP4</li>
+            <li>M4V</li>
+            <li>webm</li>
+            <li>ogv</li>
+        </ul>
+        
+</ul>
+
+<h3>Vídeos do YouTube</h3>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/21mDekTZwsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+<h3>Vídeo Hospedado no Vímeo</h3>
+
+<iframe src="https://player.vimeo.com/video/22209831?h=0e9a7a9f76&color=ff0179" width="500" height="213" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/22209831">Anima&ccedil;&atilde;o Facial</a> from <a href="https://vimeo.com/biriba">Biriba</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="https://player.vimeo.com/video/140518581?h=1dab6ee78b&color=ff0179" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/140518581">ANIMA&Ccedil;&Atilde;O INCRA</a> from <a href="https://vimeo.com/maxcarvalho">Max Carvalho</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

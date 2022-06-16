@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('espaco.jpg');
+}
+
+img{
+    position: absolute;
+    left: 450px;
+    top: 500px;    
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }

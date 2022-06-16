@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Imagem</title>
+    <style>
+        body{
+            background-color: rgb(168, 197, 197);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho de sua janela para aproveitar a melhor experiência. &#x1F941</p>
+    <picture>
+        <source media="(max-width: 680px)" srcset="paisagem-p.png"" type="image/png">
+        <source media="(max-width: 1000px)" srcset="paisagem-m.png"" type="image/png">
+       <img src="paisagem-g.png" alt="">
+    </picture>
+</body>
+</html>
