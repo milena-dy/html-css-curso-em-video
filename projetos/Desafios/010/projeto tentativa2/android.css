@@ -69,6 +69,8 @@ main{
 
 main > article > p{
     margin: 30px;
+    text-align: justify;
+
     
 }
 
@@ -79,6 +81,7 @@ main > article > h1{
     color: #205e3d;  
     padding: 25px;
     margin: 0;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
 }
 
 main > article > h2{
@@ -89,7 +92,7 @@ main > article > h2{
     color: #255344;
     padding: 5px;
     margin: 30px;
-   
+    text-shadow: 2px 2px 0px rgba(20, 61, 29, 0.301);
 }
 
 img{
@@ -102,7 +105,7 @@ header{
     padding: 30px;
     display: block;
     box-shadow: 2px 7px 7px rgba(55, 94, 70, 0.19);
-    min-height: 150px;
+    min-height: 80px;
     margin: 0;
     background-image: linear-gradient(to bottom, var(--cor7), var(--cor8), var(--cor9), var(--cor10));
 }
@@ -130,7 +133,7 @@ header > p{
 }
 
 nav{
-    padding: 20px;
+    padding: 10px;
     background-image: linear-gradient(to top, var(--cor7), var(--cor8), var(--cor9), var(--cor10));
 }
 
@@ -141,7 +144,7 @@ nav > a{
     padding-right: 10px;
     font-weight: bold;
     font-size: 19px;
-    text-shadow: 2px 2px 0px rgba(63, 73, 63, 0.199);
+    text-shadow: 2px 2px 0px rgba(34, 63, 34, 0.199);
 }
 
 nav > a:hover{
@@ -193,6 +196,12 @@ aside > ul{
     padding: 15px;
 }
 
+aside a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
 footer{
     display: block;
     background-color: #19492f;
@@ -226,7 +235,7 @@ padding: 20px;
   }
 
   .idroid{
-    width: 50%;
+    max-width: 320px;
   }
 
 iframe{
